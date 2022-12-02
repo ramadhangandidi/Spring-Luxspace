@@ -27,4 +27,16 @@ public class ShippingService implements IShippingService{
 		return shippingRepository.getAllShipping();
 	}
 
+	@Override
+	public Shipping updateShipping(int id, Shipping shipping) {
+		// TODO Auto-generated method stub
+		return shippingRepository.updateShipping(id, shipping);
+	}
+
+	@Override
+	public Shipping deleteShipping(int id) {
+		// TODO Auto-generated method stub
+		return shippingRepository.deleteShipping(id);
+	}
+
 }

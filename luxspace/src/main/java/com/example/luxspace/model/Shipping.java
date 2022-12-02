@@ -16,9 +16,9 @@ public class Shipping {
 	private String first_name;
 	private String last_name;
 	private String email;
-	private int phone_number;
+	private String phone_number;
 	private String city;
-	private int postal_code;
+	private String postal_code;
 	private String address;
 	public long getId() {
 		return id;
@@ -44,10 +44,10 @@ public class Shipping {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public int getPhone_number() {
+	public String getPhone_number() {
 		return phone_number;
 	}
-	public void setPhone_number(int phone_number) {
+	public void setPhone_number(String phone_number) {
 		this.phone_number = phone_number;
 	}
 	public String getCity() {
@@ -56,10 +56,10 @@ public class Shipping {
 	public void setCity(String city) {
 		this.city = city;
 	}
-	public int getPostal_code() {
+	public String getPostal_code() {
 		return postal_code;
 	}
-	public void setPostal_code(int postal_code) {
+	public void setPostal_code(String postal_code) {
 		this.postal_code = postal_code;
 	}
 	public String getAddress() {
